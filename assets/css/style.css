@@ -1,4 +1,61 @@
-:root{
-    background-color: white;
-    color: black;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 10px;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    margin-top: 20px;
+}
+
+
+.search-panel {
+    width: 25%;
+    margin: 10px 20px;
+    padding: 10px 0 10px 10px;
+    background-color: #ddd5d5;
+}
+
+.city-name {
+    width: 100%;
+}
+
+.results-panel {
+    width: 75%;
+    padding-bottom: 10px;
+    visibility: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.current-weather {
+    border: 1px solid #C0C0C0;;
+    padding: 10px 30px;
+}
+.future-panel {
+    padding-top: 50px;
+}
+.container {
+    display: inline;
+}
+.row {
+    text-align: center;
+}
+.card-header {
+    background-color: #164dc3;
+    color: white;
+}
+.card-body {
+    background-color:#f37e11;
 }
