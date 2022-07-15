@@ -3,4 +3,4 @@
 
 # Screenshot
 
-<img src="./assets/images/Screenshot">
+<img src="./assets/images/Screenshot.png">
